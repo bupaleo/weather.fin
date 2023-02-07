@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.weather{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+    color:white;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;  
+    font-size: 20px;
+}
+ //если экран будет вертикальным
+@media (orientation: portrait){
+    .clock{
+        margin-top:20px;
+        font-size: 15px;
+    }
+    .weather{
+        font-size: 15px;
+    }
+}
+

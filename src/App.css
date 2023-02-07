@@ -1,0 +1,11 @@
+p{
+    display: flex;
+    color: #FAF9F6;
+}
+body{
+    background-image: url("./assets/fon.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 130%;
+    color:white
+}
